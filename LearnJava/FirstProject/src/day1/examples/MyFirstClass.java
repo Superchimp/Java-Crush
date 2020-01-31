@@ -13,8 +13,9 @@ public class MyFirstClass {
 		int x = 10;
 		int y = 20;
 		int result = x + y;
-		System.out.println(x + " + " + y + " = " + x+y);
+		System.out.println(x + " + " + y + " = " + (x+y));
 		System.out.println("The result is " + result);
+		System.out.println();
 
 	}
 
