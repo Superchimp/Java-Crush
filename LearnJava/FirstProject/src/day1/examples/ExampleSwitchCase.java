@@ -4,9 +4,9 @@ public class ExampleSwitchCase {
 
 	public static void main(String[] args) {
 		
-		int j = 2;
+		int n = 2;
 		
-		switch(j) {
+		switch(n) {
 		
 			case 0:
 				System.out.println("Value is 0");
@@ -21,9 +21,32 @@ public class ExampleSwitchCase {
 				System.out.println("Value is 3");
 				break;
 			default:
-				System.out.println("No Value");
+				System.out.println("Out of Bounds");
 				break;
 		
+		}
+		
+		String s = "On";
+		
+		switch(s) {
+			
+			case "Zero":
+				System.out.println("Value is Zero");
+				break;
+			case "One":
+				System.out.println("Value is One");
+				break;
+			case "Two":
+				System.out.println("Value is Two");
+				break;
+			case "Three":
+				System.out.println("Value is Three");
+				break;
+			default:
+				System.out.println("Out of Bounds");
+				break;
+			
+				
 		}
 
 	}
