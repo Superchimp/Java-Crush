@@ -15,7 +15,7 @@ public class MyFirstClass {
 		int result = x + y;
 		System.out.println(x + " + " + y + " = " + (x+y));
 		System.out.println("The result is " + result);
-		System.out.println();
+		System.out.println(x + y); // Note how concatenation is different to python
 
 	}
 

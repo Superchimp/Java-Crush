@@ -16,7 +16,7 @@ public class ExampleSwitchCase {
 				break;
 			case 2:
 				System.out.println("Value is 2");
-				//break;    Oooopsie!
+				//break;    Oooopsie! No Break so we print till next break (line 22)
 			case 3:
 				System.out.println("Value is 3");
 				break;
