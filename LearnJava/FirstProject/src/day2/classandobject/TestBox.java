@@ -10,11 +10,14 @@ public class TestBox {
 		
 		ups.length = 5;
 		ups.width = 10;
-		ups.calculateArea();
+		int upsArea = ups.calculateArea(4,3); 
 		
 		fedEx.length = 6;
 		fedEx.width = 7;
-		fedEx.calculateArea();
+		int fedExArea = fedEx.calculateArea(2,5);
+		
+		
+		System.out.println("Total of ups and fedEx = " + (upsArea + fedExArea));
 		
 
 	}
