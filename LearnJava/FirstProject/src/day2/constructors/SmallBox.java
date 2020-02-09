@@ -24,7 +24,7 @@ public class SmallBox {
 		this.length = length; // And here we assign the passed arguments to the Class Level Data
 		this.width = width;  // This means we are using the passed arguments as the values for
 		                     // the next time we run calculateArea and not the default values (5, 6)
-	}
+	}                        // This type of constructor is often called "Constructor Overloading"
 	
 	
 	void calculateArea() {
