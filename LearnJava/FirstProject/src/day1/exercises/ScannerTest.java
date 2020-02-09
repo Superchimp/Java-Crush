@@ -37,7 +37,7 @@ public class ScannerTest {
 		// concatenate the new value in myVar with the string in the print statement. COMPLICATED!
 		System.out.println(myVar.nextLine() + " is my favourite colour too!");
 	
-		
+		// I wish this was simpler but apparently this is the easiest way to take input >.<
 
 	}
 
