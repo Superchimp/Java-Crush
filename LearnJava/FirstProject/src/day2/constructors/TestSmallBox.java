@@ -10,6 +10,7 @@ public class TestSmallBox {
 		obj1.calculateArea();
 		
 		// Here we fire the second constructor because we are passing arguments
+		// This is called Constructor Overloading
 		SmallBox obj2 = new SmallBox(3,4);
 		obj2.calculateArea();
 

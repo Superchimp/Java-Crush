@@ -13,7 +13,7 @@ public class ExampleArrays {
 		
 		System.out.println(x[2] + " " + x[4]);
 		
-		//Enchanced for statement
+		//Enchanced for statement or Enhanced For Loop
 		for(int temp1 : x) {
 			System.out.println(temp1);
 		}
