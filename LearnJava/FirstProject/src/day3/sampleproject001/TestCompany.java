@@ -12,6 +12,16 @@ public class TestCompany {
 		Employee sara = new Employee("Sara Time", 7);
 		Employee james = new Employee("James Doe", 4);
 		
+		Department sales = new Department("XYZ Sales");
+		Department iT = new Department("XYZ IT");
+		
+		
+		sales.addEmployee(alex);
+		sales.addEmployee(linda);
+		sales.addEmployee(john);
+		
+		iT.addEmployee(sara);
+		iT.addEmployee(james);
 		
 	}
 

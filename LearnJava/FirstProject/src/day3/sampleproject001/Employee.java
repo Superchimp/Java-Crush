@@ -7,6 +7,10 @@ public class Employee {
 	private String empName;
 	private int grade;
 	
+	public int getGrade() {
+		return grade;
+	}
+	
 	// Build a constructor to Employee objects and also access/asign values to the private variables
 	public Employee(String empName, int grade) {
 		this.empName = empName;
