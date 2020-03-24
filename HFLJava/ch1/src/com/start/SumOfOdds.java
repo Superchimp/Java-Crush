@@ -13,9 +13,16 @@ public class SumOfOdds {
         int totalSum = 0;
 
         for (int num : nums){
-            if(num % 2 == 1){
-                totalSum += num;
-                timesAdded++;
+            if(num % 2 != 0){
+                if(firstNum == true){
+                    firstNum = false;
+                    totalSum = num;
+                    timesAdded++;
+                }
+                else {
+                    totalSum += num;
+                    timesAdded++;
+                }
             }
             if(timesAdded == 10){
                 return totalSum;
